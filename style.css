@@ -1,21 +1,38 @@
+/*Body Styles*/
+body {
+  margin: 0;
+}
+
+/*Header*/
 header {
   display: flex;
+  position: fixed;
   border-bottom: 1px solid black;
   justify-content: space-between;
   align-items: center;
+  height: 80px;
+  width: 100%;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .logo {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  padding-left: 20px;
 }
+
 
 .logo span {
   color: MediumAquamarine;
+  padding-left: 10px;
 }
 
 .nav {
+  display: flex;
   padding-right: 40px;
+
 }
 
 .nav span {
@@ -24,5 +41,4 @@ header {
 
 .nav a {
   color: black;
-  font-weight: bold;
 }
