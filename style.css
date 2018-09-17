@@ -45,3 +45,11 @@ header {
 .nav a {
   color: black;
 }
+
+/*Main Section*/
+
+.main {
+  display: flex;
+  flex-direction: column;
+  
+}
