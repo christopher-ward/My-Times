@@ -51,5 +51,11 @@ header {
 .main {
   display: flex;
   flex-direction: column;
-  
+  position: relative;
+  top: 100px;
+}
+
+/*Not sure about this*/
+.main, .column, .large, .medium, .small, p, .Orca, .Burger {
+  border: 1px solid black;
 }
