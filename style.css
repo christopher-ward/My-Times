@@ -76,6 +76,6 @@ header {
 }
 
 /*Not sure about this*/
-.main, .column, .large, .medium, .small, p, .Orca, .Burger {
+.main, .column, .large, .medium, .small, .Orca, .Burger {
   border: 1px solid black;
 }
