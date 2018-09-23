@@ -48,16 +48,28 @@ header {
   color: black;
 }
 
+
+
 /*Main Section*/
+
+
 
 .main {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   position: relative;
   top: 80px;
   padding-top: 40px;
-  margin-bottom: 80px;
+  margin: 80px auto;
+  width: 1260px;
+  /* commenting out to test margins instead */
+  /* margin-bottom: 80px; */
+
+}
+
+#main-div {
+  margin-top: 0px;
 }
 
 .column {
@@ -68,6 +80,7 @@ header {
   display: flex;
   flex-direction: column;
   width: 630px;
+  margin-right: 30px;
 }
 
 .column.medium {
@@ -84,6 +97,10 @@ header {
 }
 
 /*Not sure about this*/
-.main, .column, .large, .medium, .small, .Orca, .Burger, .news-bites {
+.main, .column, .large, .medium, .small, .Orca, .Burger, .news-bites, .tag-line {
   border: 1px solid black;
+}
+
+p.tag-line {
+  margin: 0px;
 }
