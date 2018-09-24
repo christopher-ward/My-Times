@@ -49,9 +49,7 @@ header {
 }
 
 
-
-/*Main Section*/
-
+/* Main Section */
 
 
 .main {
@@ -63,9 +61,6 @@ header {
   padding-top: 40px;
   margin: 80px auto;
   width: 1260px;
-  /* commenting out to test margins instead */
-  /* margin-bottom: 80px; */
-
 }
 
 #main-div {
@@ -83,8 +78,33 @@ header {
   margin-right: 30px;
 }
 
+.headline {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+
+}
+
+.earth {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+}
+
+.research {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+}
+
 .column.medium {
   width: 300px;
+}
+
+.cats {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+
+.image .tag-line {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .column.small {
@@ -96,10 +116,17 @@ header {
   margin: 0 auto;
 }
 
+.story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
 /*Not sure about this*/
 .main, .column, .large, .medium, .small, .Orca, .Burger, .news-bites, .tag-line {
   border: 1px solid black;
 }
+
 
 p.tag-line {
   margin: 0px;
