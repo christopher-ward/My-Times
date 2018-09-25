@@ -67,20 +67,42 @@ header {
   margin-top: 0px;
 }
 
+/* Columns */
+
 .column {
-  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
 }
 
 .column.large {
+  width: 630px;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.story .story-content {
+  height: 250px;
+}
+
+.story {
   display: flex;
   flex-direction: column;
-  width: 630px;
-  margin-right: 30px;
+  width: 300px;
+}
+
+.story-text {
+  margin-top: 16px;
 }
 
 .image.headline.mother {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
   height: 300px;
+  margin-top: 0;
 }
 
 .image.headline.earth {
@@ -130,11 +152,6 @@ header {
   font-family: Georgia;
   font-size: 17px;
   color: black;
-}
-
-/*Not sure about this*/
-.main, .column, .large, .medium, .small, .Orca, .Burger, .news-bites, .headline {
-  border: 1px solid black;
 }
 
 
